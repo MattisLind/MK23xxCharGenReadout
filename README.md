@@ -36,7 +36,7 @@ The first PCB had too small holes for the 24 pin ROM socket so it was not possib
 
 ## Software
 
-The software is an Arduino sketch. I have been using (Arduino Core STM32)[https://github.com/stm32duino/Arduino_Core_STM32] library. The Bluepill is a STM32F103C6 and it is set to have USB enabled with serial support 
+The software is an Arduino sketch. I have been using [Arduino Core STM32](https://github.com/stm32duino/Arduino_Core_STM32) library. The Bluepill is a STM32F103C6 and it is set to have USB enabled with serial support 
 
 There is a #define SCROLL which can be set to either 0 or 1 if one want the fancier soft scroll rather than just showing each character.
 

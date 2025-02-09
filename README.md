@@ -28,7 +28,7 @@ CHAR2 COLUMN 3 VALUE 70
 CHAR2 COLUMN 4 VALUE 70
 ```
 
-Please note that the contents of this example ROM is active low so that a binary 0 indicate a lit pixel.
+Please note that the contents of this example ROM is active low so that a binary 0 indicate a lit pixel. Depending if the outputs are active low or high the output driver can be 7407 or 7406 respectively.
 
 ## PCB
 

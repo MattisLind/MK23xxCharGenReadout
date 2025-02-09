@@ -30,4 +30,13 @@ CHAR2 COLUMN 4 VALUE 70
 
 Please note that the contents of this example ROM is active low so that a binary 0 indicate a lit pixel.
 
+## PCB
+
 The first PCB had too small holes for the 24 pin ROM socket so it was not possible to fit a ZIF socket. I revised the PCB so that the new PCB have 1.0 mm holes rather than 0.8 mm. I think that this should work better but have not ordered any PCB to check. 
+
+## Software
+
+The software is an Arduino sketch. I have been using (Arduino Core STM32)[https://github.com/stm32duino/Arduino_Core_STM32] library. The Bluepill is a STM32F103C6 and it is set to have USB enabled with serial support 
+
+There is a #define SCROLL which can be set to either 0 or 1 if one want the fancier soft scroll rather than just showing each character.
+
